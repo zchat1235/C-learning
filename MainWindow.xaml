@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFDEDDC9">
+        <Button x:Name="button" Content="Connect" HorizontalAlignment="Left" Height="42" Margin="136,360,0,0" VerticalAlignment="Top" Width="149" FontSize="24" FontWeight="Normal" Background="White"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="34" Margin="130,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="568"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="102" VerticalAlignment="Top" Width="797" Source="/S__7487525.jpg" Stretch="Fill"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="14,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="114" FontSize="24" FontWeight="Normal" Text="Computer:"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="14,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="34" Width="485" FontSize="24" FontWeight="Normal" Text="User name:  None specialed"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="14,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="684" FontSize="24" FontWeight="Normal"><Run Text="This computer name field is blank. Enter a full remote computer"/><LineBreak/><Run Text="name"/></TextBlock>
+        <Button x:Name="button_Copy" Content="Cancle" HorizontalAlignment="Left" Height="42" Margin="296,360,0,0" VerticalAlignment="Top" Width="151" FontSize="24" FontWeight="Normal" Background="White"/>
+        <Button x:Name="button_Copy1" Content="Option&gt;&gt;" HorizontalAlignment="Left" Height="42" Margin="620,361,0,0" VerticalAlignment="Top" Width="153" FontSize="24" FontWeight="Normal" Background="White"/>
+        <Button x:Name="button_Copy2" Content="Help" HorizontalAlignment="Left" Height="42" Margin="458,360,0,0" VerticalAlignment="Top" Width="155" FontSize="24" FontWeight="Normal" Background="White"/>
+
+    </Grid>
+</Window>
